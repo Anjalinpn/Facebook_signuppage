@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #385998);
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.Login-form{
+    display: flex;
+    position:absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.Login-form .email,
+.Login-form .password{
+    padding-left: 10px;
+}
+.Login-form .email .font,
+.Login-form .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color:white;
+}
+.Login-form .email input,
+.Login-form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.login-button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+.login-button:hover{
+    background: #385998;
+}
+section{
+    height: 614px;
+    width: 100%;
+    top: 800px;
+    background: linear-gradient("#FDFDFE, #EFF1F6, #E3E6F0, #D60BEA");
+    font-family: verdana;
+}
+.logo-body{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.like-font{
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.Signup_body{
+    font-family: arial;
+    position: absolute;
+    left: 57%;
+}
+.Signup_body .create{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.Signup_body .free-hint{
+    margin: -20px 5px;
+    font-size: 25px;
+}
+.Signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.Signup_body .signup_form .email,
+.Signup_body .signup_form .password,
+.Signup_body .signup_form .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.Signup_body .signup_form .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.Signup_body .signup_form .birthdate{
+    margin-top: 5px;
+}
+.Signup_body .signup_form .month,
+.Signup_body .signup_form .day,
+.Signup_body .signup_form .year{
+    height: 28px;
+}
+.Signup_body .signup_form .day
+.Signup_body .signup_form .year{
+    margin-left: -5px;
+}
+.Signup_body .signup_form .birth_hint{
+    font-size: 11px;
+    padding-left: 180px;
+    margin-top: -28px;
+    width: 150px;
+}
+.Signup_body .signup_form a{
+    text-decoration: none;
+}
+.Signup_body .signup_form a:hover{
+    text-decoration: underline;
+}
+.Signup_body .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.Signup_body .signup_form input[value="female"]{
+    margin-left: -100px;
+}
+.Signup_body .signup_form .font{
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.Signup_body .signup_form .font2{
+    margin-left: 150px;
+}
+.Signup_body .signup_form .agree{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.Signup_body .signup_form .signup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+.Signup_body .signup_form .signup:hover{
+    background: linear-gradient(#74b85e, #598845);
+}
